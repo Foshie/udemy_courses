@@ -1,0 +1,31 @@
+What is javascript?
+	-lightweight
+		.doesn't use much memory
+	-crossplatform
+		-multiple systems
+		-
+	client side - browser
+	server side - node.js
+	dynamic effects and interactivity
+	modern web applications that we can interact with
+	popular frameworks: react, angular
+	popular libraries: jQuery
+
+Role of Javascript
+	html - content
+		nouns: <p> </p>
+	css - presentation
+		adjectives: p {color:red;}
+	js - dynamic effects/programming
+
+
+Data Types
+	Number - floating point numbers
+	String - sequence of characters used for text
+	Boolean - logical data type that can only be true or false
+	Undefined - data type of variable which does not have a value yet
+	Null - Also means 'non-existent'
+
+JS is dynamically typed
+
+type coersion - converts data types on the fly when it needs it
