@@ -126,17 +126,71 @@ if(johnScore > friendsScore){
 
 //Lecture: functions
 
-function calculateAge(yearOfBirth){
-	var age = 2016 - yearOfBirth;
-	return age;
+// function calculateAge(yearOfBirth){
+// 	var age = 2016 - yearOfBirth;
+// 	return age;
 
+// }
+
+// var ageJohn = calculateAge(1990);
+// console.log(ageJohn);
+
+// function yearsUntilRetirement(name, yearOfBirth){
+
+// 	var age = calculateAge(yearOfBirth);
+
+//}
+//
+//Lecture Statements and expressions
+
+/*
+function someFun(par) {
+	//code
 }
 
-var ageJohn = calculateAge(1990);
-console.log(ageJohn);
-
-function yearsUntilRetirement(name, yearOfBirth){
-
-	var age = calculateAge(yearOfBirth);
-	
+var someFun = function(par){
+	//code
 }
+
+//Expressions
+3 + 4;
+var x = 3;
+
+//statements
+if(x===5){
+	//do something
+}
+
+*/
+
+//Lecture: Arrays
+
+// var names = ['John', 'Jane', 'Mark'];
+// var years = new Array(1990, 1969, 1948);
+// names.push('New');
+// years.pop();
+// names.unshift('First');
+// names.indexOf('Jane');
+
+//Lecture: Objects
+
+var john = {
+	name: 'John',
+	lastName: 'Smith',
+	yearOfBirth: 1990,
+	job: 'teacher',
+	isMarried: false
+}
+
+var xyz = 'job';
+
+john.lastName = 'Milller';
+
+john['job'] = 'programmer';
+
+var jane = new Object();
+jane.name = 'Jane';
+jane.lastName = 'Smith';
+jane['yearOfBirth'] = 1969;
+jane['job'] = 'retired';
+jane['isMarried'] = true;
