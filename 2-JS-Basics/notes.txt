@@ -32,3 +32,4 @@ type coersion - converts data types on the fly when it needs it
 
 expression - produce some value
 statement - doesn't produce a variable or immediate product. Do some action to perform something
+
